@@ -2,7 +2,7 @@
 
 A powerful AI-driven application that analyzes resumes and provides personalized career development recommendations, skill suggestions, and company role matches.
 
-![Project Banner]()
+![Project Banner](https://github.com/user-attachments/assets/81cbc7b2-629c-4330-9a8b-7d9420aabff3)
 
 ## 🌟 Features
 
@@ -122,7 +122,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](https://github.com/user-attachments/assets/8ef9f6e8-7188-4f95-a0bc-dc1487fd8fa2)
 
 ![Resume Analysis](https://github.com/user-attachments/assets/117b12ac-15a8-475b-882c-4ccc806e36f5)
 
