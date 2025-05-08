@@ -122,22 +122,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface]()
+![Main Interface](https://github.com/user-attachments/assets/8ef9f6e8-7188-4f95-a0bc-dc1487fd8fa2)
 
-### Resume Analysis
-![Resume Analysis]()
+![Resume Analysis](https://github.com/user-attachments/assets/117b12ac-15a8-475b-882c-4ccc806e36f5)
 
 ### Career Recommendations
-![Career Recommendations]()
+![Career Recommendations](https://github.com/user-attachments/assets/5fed0af6-e154-4839-9897-09a3d5195004)
 
 ### Course Suggestions
-![Course Suggestions]()
+![Course Suggestions](https://github.com/user-attachments/assets/6646a9ad-18b1-41f9-b30d-b3add8c021fb)
 
 ## 📞 Contact
 
 For any queries or support, please reach out to:
 - GitHub Issues: [Create an issue](https://github.com/yourusername/personalized-career-development-assistant/issues)
-- Email: [Your Email]
+- Email: [10a19yashwant@gmail.com]
 
 ---
 
