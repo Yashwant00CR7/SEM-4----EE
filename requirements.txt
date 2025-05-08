@@ -15,3 +15,4 @@ openpyxl
 pypdf
 streamlit_tags
 plotly
+yt-dlp
