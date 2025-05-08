@@ -13,3 +13,4 @@ langchain_experimental
 pandas
 openpyxl
 pypdf
+streamlit_tags
