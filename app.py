@@ -192,6 +192,7 @@ def inject_custom_css():
         }
         .main {
             background: none !important;
+            padding: 1rem;
         }
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Poppins', sans-serif !important;
@@ -199,28 +200,32 @@ def inject_custom_css():
             letter-spacing: 0.5px;
         }
         h1 {
-            font-size: 2.8rem;
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
             color: #22223b;
             margin-bottom: 1.5rem;
         }
         h2 {
-            font-size: 2.2rem;
+            font-size: clamp(1.6rem, 3vw, 2.2rem);
             color: #22223b;
         }
         h3 {
-            font-size: 1.6rem;
+            font-size: clamp(1.4rem, 2.5vw, 1.6rem);
             color: #22223b;
         }
         .card {
             border-radius: 24px;
-            padding: 2.5rem 2rem;
+            padding: clamp(1.5rem, 3vw, 2.5rem) clamp(1rem, 2vw, 2rem);
             background: rgba(255, 255, 255, 0.25);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             border: 1.5px solid rgba(255, 255, 255, 0.35);
-            margin: 2rem 0;
+            margin: clamp(1rem, 2vw, 2rem) 0;
             transition: box-shadow 0.3s, transform 0.3s;
+            width: 100%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .card:hover {
             box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
@@ -229,27 +234,35 @@ def inject_custom_css():
         .skill-chip {
             display: inline-block;
             background: rgba(255,255,255,0.45);
-            padding: 14px 28px;
+            padding: clamp(0.8rem, 1.5vw, 1.4rem) clamp(1.4rem, 2.8vw, 2.8rem);
             border-radius: 30px;
-            margin: 10px;
+            margin: 0.5rem;
             color: #22223b;
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
             box-shadow: 0 2px 8px rgba(31, 38, 135, 0.08);
             border: 1px solid rgba(255,255,255,0.3);
         }
         .course-card {
             background: rgba(255,255,255,0.30);
             border-radius: 20px;
-            padding: 2rem 1.5rem;
-            margin: 2rem 0;
+            padding: clamp(1rem, 2vw, 2rem) clamp(0.8rem, 1.5vw, 1.5rem);
+            margin: clamp(1rem, 2vw, 2rem) 0;
             box-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.13);
             transition: box-shadow 0.3s, transform 0.3s;
             display: flex;
-            gap: 2rem;
-            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: flex-start;
             border: 1.5px solid rgba(255,255,255,0.25);
             backdrop-filter: blur(10px);
+            width: 100%;
+        }
+        @media (min-width: 768px) {
+            .course-card {
+                flex-direction: row;
+                align-items: center;
+            }
         }
         .course-card:hover {
             box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.22);
@@ -266,35 +279,37 @@ def inject_custom_css():
             border-left: 8px solid;
             border-image: linear-gradient(135deg, #f8cdda 0%, #1fa2ff 100%, #a1c4fd 100%) 1;
             transition: box-shadow 0.3s, transform 0.3s;
+            width: 100%;
         }
         .edu-proj-title {
-            font-size: 1.22rem;
+            font-size: clamp(1rem, 1.5vw, 1.22rem);
             font-weight: 700;
             color: #22223b;
             margin-bottom: 0.3rem;
             letter-spacing: 0.2px;
         }
         .edu-proj-detail {
-            font-size: 1.08rem;
+            font-size: clamp(0.9rem, 1.2vw, 1.08rem);
             color: #4a6fa5;
             font-weight: 500;
             margin-left: 0.1rem;
         }
         .personal-info h4 {
-            font-size: 1.5rem;
+            font-size: clamp(1.2rem, 1.8vw, 1.5rem);
             margin: 1.2rem 0;
             color: #22223b;
         }
         .personal-info p {
             color: #4a6fa5;
             margin: 0.5rem 0;
-            font-size: 1.1rem;
+            font-size: clamp(0.9rem, 1.2vw, 1.1rem);
         }
         .details-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1.5rem;
             margin: 1.5rem 0;
+            width: 100%;
         }
         .details-section {
             text-align: center;
@@ -303,18 +318,21 @@ def inject_custom_css():
         .education-list, .project-list {
             text-align: left;
             margin: 0 auto;
-            max-width: 90%;
+            width: 100%;
         }
         .stButton>button {
             background: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
             color: #22223b;
             border-radius: 10px;
-            padding: 10px 28px;
+            padding: clamp(0.8rem, 1.5vw, 1rem) clamp(1.4rem, 2.8vw, 2.8rem);
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: clamp(0.9rem, 1.2vw, 1.1rem);
             border: none;
             box-shadow: 0 2px 8px rgba(31, 38, 135, 0.08);
             transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
         }
         .stButton>button:hover {
             background: linear-gradient(90deg, #f8cdda 0%, #a1c4fd 100%);
@@ -332,6 +350,35 @@ def inject_custom_css():
         ::-webkit-scrollbar-thumb {
             background: rgba(31,38,135,0.13);
             border-radius: 8px;
+        }
+        /* Responsive images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsive columns */
+        @media (max-width: 768px) {
+            .stColumns {
+                flex-direction: column;
+            }
+            .stColumn {
+                width: 100% !important;
+                margin: 1rem 0;
+            }
+        }
+        /* File uploader styling */
+        .stFileUploader {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        /* Container padding */
+        .stContainer {
+            padding: 1rem;
+        }
+        /* Responsive text */
+        p, span, div {
+            font-size: clamp(0.9rem, 1.2vw, 1.1rem);
         }
     </style>
     """, unsafe_allow_html=True)
