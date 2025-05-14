@@ -62,6 +62,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 1. Start the application:
 ```bash
+streamlit run store_index.py #First Time only
 streamlit run app.py
 ```
 
