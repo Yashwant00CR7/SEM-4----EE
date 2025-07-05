@@ -4,6 +4,11 @@ A powerful AI-driven application that analyzes resumes and provides personalized
 
 ![Project Banner](https://github.com/user-attachments/assets/81cbc7b2-629c-4330-9a8b-7d9420aabff3)
 
+## LinkedIn URL
+I noticed that many college students (including me!) often feel confused about which company to choose or what skills to learn next. So, I thought, why not use AI to help us out? That’s how this project started!
+
+[Click here](https://www.linkedin.com/posts/activity-7326189382040719361-Aawj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb_BzkBeS-2lJemldR3EP-oZuqIWJ9intw)
+
 ## 🌟 Features
 
 - **Resume Analysis**: Upload your resume in PDF format for instant analysis
