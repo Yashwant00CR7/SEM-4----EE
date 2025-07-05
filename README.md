@@ -4,6 +4,10 @@ A powerful AI-driven application that analyzes resumes and provides personalized
 
 ![Project Banner](https://github.com/user-attachments/assets/81cbc7b2-629c-4330-9a8b-7d9420aabff3)
 
+DEMO ⬇️⬇️⬇️
+
+[Test it HERE](https://personalized-career-development-bot.streamlit.app/)
+
 ## LinkedIn URL
 I noticed that many college students (including me!) often feel confused about which company to choose or what skills to learn next. So, I thought, why not use AI to help us out? That’s how this project started!
 
